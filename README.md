@@ -1,10 +1,19 @@
 # PGP-Protocol
-Functional impementation of PGP security protocol.
+# Functional Implementation of the PGP Security Protocol
 
-Functionalities:
+### Features
 
-Generate key ring - supported (rsa+rsa or elgamal+dsa)
-Export key ring to .pem format
-Import key ring from .pem format
-Send message (with sign and encryption)
-Recieve message (with sign verification and decryption)
+- **Key Ring Generation**  
+  - Supports generating key rings with either RSA+RSA or ElGamal+DSA key pairs.
+
+- **Export Key Ring**  
+  - Allows exporting the key ring to `.pem` format for easy sharing and storage.
+
+- **Import Key Ring**  
+  - Enables importing key rings from `.pem` format.
+
+- **Send Message**  
+  - Supports sending messages with options for signing and encryption.
+
+- **Receive Message**  
+  - Enables receiving messages with both signature verification and decryption.
